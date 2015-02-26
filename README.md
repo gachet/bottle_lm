@@ -1,4 +1,3 @@
-# ejemplo
-Esto es un repositorio ejemplo para la clase de lm
+# Bottle - Lenguaje de marcas
 
-Estoy aprendiendo git
+Ejemplos de uso del python web framework  Bootle para las clases del módulo de Lenguaje de Marcas.
