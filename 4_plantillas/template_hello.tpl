@@ -14,14 +14,11 @@
     </header>
     <section>
        <article>
-           <h2>Titilo de contenido<h2>
-           <p> Contenido (ademas de imagenes, citas, videos etc.) </p>
+           <h2>Vamos saludar<h2>
+           <p> Hola {{nombre}}</p>
        </article>
     </section>
-    <aside>
-       <h3>Titulo de contenido</h3>
-           <p>contenido</p>
-    </aside>
+    
     <footer>
         Creado por mi el 2011
     </footer>
