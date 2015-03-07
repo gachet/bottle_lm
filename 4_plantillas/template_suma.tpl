@@ -7,7 +7,7 @@
  
 <body>
     <header>
-       <h1>Suma</h1>
+       <h1>Suma {{numero1}}+{{numero2}}</h1>
     </header>
     <%
       suma=int(numero1)+int(numero2)
