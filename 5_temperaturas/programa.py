@@ -2,7 +2,7 @@ from bottle import route, default_app, template
 from lxml import etree
 @route('/')
 def index():
-    doc=etree.parse(sevilla.xml")
+    doc=etree.parse("sevilla.xml")
     muni=doc.findall("municipio")
     return template("index.tpl", mun=muni)
 @route('/<cod>/<name>')
