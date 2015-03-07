@@ -12,21 +12,12 @@
        <h1>Mi sitio web</h1>
        <p>Mi sitio web creado en html5</p>
     </header>
-    <section>
-       <article>
-           <h2>Vamos a saludar</h2>
-           % if nombre=="Mundo":
-              <p> Hola <strong>{{nombre}}</strong></p>
-           %else:
-              <h1>Hola {{nombre.title()}}!</h1>
-              <p>¿Cómo estás?
-           %end
-
-       </article>
-    </section>
-    
-    <footer>
-        Creado por mi el 2011
-    </footer>
+    <h2>Vamos a saludar</h2>
+    % if nombre=="Mundo":
+      <p> Hola <strong>{{nombre}}</strong></p>
+    %else:
+      <h1>Hola {{nombre.title()}}!</h1>
+      <p>¿Cómo estás?
+    %end
 </body>
 </html>
