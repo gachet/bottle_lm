@@ -2,7 +2,7 @@ from bottle import Bottle,route,run,request,template
 @route('/hello')
 @route('/hello/<name>')
 def hello(name='World'):
-    return template('hello_template.tpl', nombre=name)
+    return template('template_hello.tpl', nombre=name)
 
 
 
