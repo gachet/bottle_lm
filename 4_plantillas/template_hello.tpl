@@ -3,7 +3,7 @@
 <html lang="es">
  
 <head>
-<title>Hola, que tal</title>
+<title>Hola, que tal {{nombre}}</title>
 <meta charset="utf-8" />
 </head>
  
@@ -14,8 +14,14 @@
     </header>
     <section>
        <article>
-           <h2>Vamos saludar<h2>
-           <p> Hola {{nombre}}</p>
+           <h2>Vamos a saludar</h2>
+           % if nombre=="Mundo":
+              <p> Hola <strong>{{nombre}}</strong></p>
+           %else:
+              <h1>Hola {{nombre.title()}}!</h1>
+              <p>¿Cómo estás?
+           %end
+
        </article>
     </section>
     
