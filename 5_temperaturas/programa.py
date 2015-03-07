@@ -13,9 +13,8 @@ def temp(cod,name):
 	min=p.find("temperatura").find("minima").text
 	return template("temp.tpl",name=name,max=max,min=min)
 
-@route('/static/<filename>')
-@route('/static/style/<filename>')
-def server_static(filename):
-	return static_file(filename, root="static/style")
+@route('/static/<filepath:path>')
+def server_static(filepath):
+    return static_file(filepath, root='static')
 
 run(host='0.0.0.0', port=8080)
