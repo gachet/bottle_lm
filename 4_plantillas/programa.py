@@ -10,6 +10,10 @@ def suma(num1,num2):
 @route('/lista')
 def lista():
     lista=["Manzana","Platano","Naranja"]
-    return template('template_lista',lista=lista)
+    return template('template_lista.tpl',lista=lista)
+@route('/dict')
+def dict():
+    datos={"Nombre":"Jose","Telefono":645223344}
+    return template('template_dict.tpl',dict=datos)
 run(host='0.0.0.0', port=8080)
 

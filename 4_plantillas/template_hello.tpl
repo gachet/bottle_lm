@@ -1,7 +1,5 @@
 <!DOCTYPE html>
- 
 <html lang="es">
- 
 <head>
 <title>Hola, que tal {{nombre}}</title>
 <meta charset="utf-8" />

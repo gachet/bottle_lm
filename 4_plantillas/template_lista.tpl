@@ -12,6 +12,7 @@
     <ul>
     % for fruta in lista:
       <li> {{fruta}} </li>
-    % end    
+    % end
+    </ul>    
 </body>
 </html>
