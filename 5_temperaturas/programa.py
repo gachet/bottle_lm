@@ -16,6 +16,6 @@ def temp(cod,name):
 @route('static/<filename>')
 @route('static/style/<filename>')
 def server_static(filename):
-    return static_file(filename, root=static")
+    return static_file(filename, root="static")
 
 run(host='0.0.0.0', port=8080)
