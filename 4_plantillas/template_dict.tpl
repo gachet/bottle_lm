@@ -9,7 +9,7 @@
     <header>
        <h1>Diccionario</h1>
     </header>
-    <p>Nombre: {{dic["Nombre"]}}, teléfono {{dict['Telefono']}} </p>
+    <p>Nombre: {{dict["Nombre"]}}, teléfono {{dict['Telefono']}} </p>
     
 </body>
 </html>
