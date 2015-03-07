@@ -1,4 +1,4 @@
-from bottle import route, default_app, template, run
+from bottle import route, default_app, template, run, static_file
 from lxml import etree
 @route('/')
 def index():
