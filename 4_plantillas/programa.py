@@ -7,6 +7,9 @@ def hello(name='Mundo'):
 @route('/suma/<num1>/<num2>')
 def suma(num1,num2):
     return template('template_suma.tpl',numero1=num1,numero2=num2)
-
+@route('/lista')
+def lista():
+    lista=["Manzana","Platano","Naranja"]
+    return template('template_lista',lista=lista)
 run(host='0.0.0.0', port=8080)
 

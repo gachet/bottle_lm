@@ -17,7 +17,7 @@
         resultado="negativo"
       end
     %>
-    <p> La suma es<strong>{{suma}}</strong> el resultado es {{resultado}}</p>
+    <p> La suma es <strong>{{suma}}</strong> el resultado es {{resultado}}</p>
     
 </body>
 </html>
