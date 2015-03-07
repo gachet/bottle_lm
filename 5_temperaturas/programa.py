@@ -1,4 +1,4 @@
-from bottle import route, default_app, template, run, static_file
+from bottle import route, default_app, template, run, static_file, error
 from lxml import etree
 @route('/')
 def index():
@@ -16,5 +16,9 @@ def temp(cod,name):
 @route('/static/<filepath:path>')
 def server_static(filepath):
     return static_file(filepath, root='static')
+
+@error(404)
+def error404(error):
+    return 'Nothing here, sorry'
 
 run(host='0.0.0.0', port=8080)
