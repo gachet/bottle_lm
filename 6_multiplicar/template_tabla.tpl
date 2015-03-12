@@ -14,6 +14,7 @@
     % resultado = n * int(numero)
       <li> {{n}} * {{numero}} = {{resultado}}</li>
     % end
-    </ul>    
+    </ul>
+    <img src="/static/tux.jpg"/>    
 </body>
 </html>
